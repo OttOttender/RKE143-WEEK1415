@@ -26,7 +26,8 @@ app.use('/pumpkin', pumpkinRouter);
 // Mount the rke143 router at /rke143
 app.use('/rke143', rke143Router);
 
-// Start the server on port 3000
-app.listen(3000, () => {
-    console.log('Server is running on port 3000.');
+// Start the server on a dynamic port (for Render or local)
+const PORT = process.env.PORT || 3000; // Use Render's provided port or default to 3000 locally
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}.`);
 });
