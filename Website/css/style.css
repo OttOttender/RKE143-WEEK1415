@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Lato&display=swap');
+
+body {
+    background-color: rgba(245, 210, 135, 0.85);
+    color: #4A403A;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bigelow Rules', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+img {
+    width: 250px;
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    position: fixed;
+    margin: 0 auto; 
+    left: 0;
+    right: 0;   
+    bottom: 0;
+    background-color: #E5A836;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+    border-top: 2px solid #FFD700;
+}
+
+a {
+    color: #6A5ACD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #483D8B;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #E5A836;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFD700;
+}
